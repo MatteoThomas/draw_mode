@@ -1,0 +1,63 @@
+body,
+html {
+  font-size: 64px;
+  background-color: rgb(119, 119, 119);
+}
+h2 {
+  font-size: 0.3rem;
+}
+#container {
+  display: flex;
+}
+
+#control {
+  margin: 0.5rem;
+}
+#mydiv {
+  position: absolute;
+  z-index: 9;
+
+  text-align: center;
+}
+
+#mydivheader {
+  color: blue;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: rgb(0, 0, 0);
+}
+
+#titleSize {
+  margin-top: 0.1rem;
+}
+
+#artboard {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px dashed rgb(228, 228, 228);
+}
+
+.portrait {
+  width: 600px;
+  height: 800px;
+}
+
+.landscape {
+  width: 800px;
+  height: 600px;
+}
+
+#myImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.modifier {
+  background-color: rgb(168, 168, 168);
+  outline: 2px solid rgb(255, 203, 203);
+  width: 4rem;
+  padding: 0.2rem;
+}

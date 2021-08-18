@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>DrawMode</title>
+</head>
+<body>
+<div id='container'>
+<div id="control">
+    
+  <div class="modifier id="backColor">
+    <input name="MyColorPicker2" 
+    type="color"
+    id="ColorPicker2" />
+    <button onclick="changeBackColor()" type="button" id="submitbutton">Change Back Color</button>
+   </div>
+
+
+            <!-- Draggable DIV -->
+ 
+
+            <div id="mydiv">
+    <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+
+
+    <div id="mydivheader"></div>
+
+</div>
+
+<div class="modifier id"titleInput>
+    <h1 id="outputtext"></h1>
+    <div id="box">
+     <input type="text" id="input" placeholder="Enter text" autocapitalize="off" />
+    <button onclick="place()"  type="button" id="submitbutton">Enter</button>
+      </div>
+</div>
+<div class="modifier it="titleFont">
+    <select name="combobox" class="combobox"></select>
+<!-- <div class="google-fonts"></div> -->
+</div>
+<div class="modifier id="titleColorPicker">
+
+    <input name="MyColorPicker1" 
+           type="color"
+           id="ColorPicker1" />
+           <button onclick="changeColor()" type="button" id="submitbutton">Change Color</button>
+</div>
+
+<div class="modifier id="titleSize">
+    <h2>  <input type="range" value="1.2" min="1.2" max="2.6" step=".0002" id="slider"/>
+Title Size</h2>
+</div>
+
+<div class="modifier id="upload">
+    <input type='file' />
+</div>
+</div>
+<div class="landscape" id="artboard" ><img id="myImg" src="#"  /></div>
+<div  id="dimensionButton"><button onclick="toggleColor()">H / L</button></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src= "assets/js/script.js"></script>   
+ 
+</body>
+</html>
+
+
+
+
